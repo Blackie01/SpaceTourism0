@@ -1,0 +1,47 @@
+.navBar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin-top: 40px;
+}
+
+#logo{
+    margin-left: 50px;
+}
+
+#rectangle{
+    position: absolute;
+    width: 400px;
+    height: 1px;
+    left: 167px;
+    margin-top: 0;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+.menu{
+    z-index: -1;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
+    width: 750px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;    
+    list-style: none;
+    gap: 10px;
+    width: 500px;
+    margin: 23px 160px 23px 118px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #FFFFFF;
+}
+
+.span{
+    margin-left: 5px;
+    color: #D0D6F9;
+}

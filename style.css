@@ -1,0 +1,71 @@
+/* Desktop View */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+/* Homepage */
+
+body{
+    height: 100vh;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/assets/home/background-home-desktop.jpg);
+}
+
+main{
+    display: flex;
+}
+
+.hero{
+    margin: 150px 300px 131px 167px;
+}
+
+.hero h5{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    color: #D0D6F9;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.hero h1{
+    font-size: 150px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 171.9px;
+    font-family: 'Bellefair', serif;    
+}
+
+.hero p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+    font-family: 'Barlow';
+}
+
+.circle{
+    margin: 280px 0 0 -50px;
+    color: #0B0D17;
+    background-color: #FFFFFF;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle a{
+    text-decoration: none;
+    color: inherit;
+}
+
