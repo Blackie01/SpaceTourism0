@@ -20,10 +20,10 @@
     background: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.25;
+    z-index: 2;
 }
 
 .menu{
-    z-index: -1;
     height: 100%;
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(81.5485px);
@@ -39,6 +39,12 @@
     margin: 23px 160px 23px 118px;
     font-family: 'Barlow Condensed', sans-serif;
     color: #FFFFFF;
+    
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
 }
 
 .span{

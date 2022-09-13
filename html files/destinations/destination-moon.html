@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Destination Moon - Space Haven</title>
-    <link rel="stylesheet" href="destination.css">
-    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="/css files/destinations css/destination-moon.css">
+    <link rel="stylesheet" href="/css files/nav.css">
     <link rel="icon" type="image/x-icon" href="/assets/favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,24 +16,22 @@
 <body>
 
     <div>
-        <script id="replace_with_navbar" src="nav.js"></script>
+        <script id="replace_with_navbar" src="/js files/nav.js"></script>
     </div>
     
     <section class="hero">
         <section id="hero-left">
-            <p>01 <span id="pick-span">PICK YOUR DESTINATION</span></p>
+            <p><span id="jumboNumber">01</span> <span id="pick-span">PICK YOUR DESTINATION</span></p>
 
             <div id="hero-image">
                 <img src="/assets/destination/image-moon.png" alt="">
             </div>
-            
-            
         </section>
 
         <section id="hero-text">
-            <ul>
+            <ul id="subNavDestination">
                 <li><a href="">MOON</a></li>  
-                <li><a href="">MARS</a></li>
+                <li><a href="" onclick = toMars()>MARS</a></li>
                 <li><a href="">EUROPA</a></li>
                 <li><a href="">TITAN</a></li>
             </ul>
@@ -67,5 +65,7 @@
 
         </section>
     </section>
+
+    <script src="/js files/destination js/destination.js"></script>
 </body>
 </html>
