@@ -30,13 +30,13 @@
 
         <section id="hero-text">
             <ul id="subNavDestination">
-                <li><a href="">MOON</a></li>  
-                <li><a href="" onclick = toMars()>MARS</a></li>
-                <li><a href="">EUROPA</a></li>
-                <li><a href="">TITAN</a></li>
+                <li id="moonName"><a href="" onclick="onClickOfMoon(event)">MOON</a></li>  
+                <li id="marsName"><a href="" onclick="onClickOfMars(event)">MARS</a></li>
+                <li id="europaName"><a href="" onclick="onClickOfEuropa(event)">EUROPA</a></li>
+                <li id="titanName"><a href="" onclick="onClickOfTitan(event)">TITAN</a></li>
             </ul>
 
-            <section>
+            <section id="moon-section" >
                 <h1>MOON</h1>
 
                 <p>
@@ -62,8 +62,91 @@
                     </tr>
                 </table>
             </section>
+                
+            <section id="mars-section">
+                <h1>MARS</h1>
+            
+                <p>
+                    Don’t forget to pack your hiking boots. You’ll need them to 
+                    <br>
+                    tackle Olympus Mons, the tallest planetary mountain in 
+                    <br>
+                    our solar system. It’s two and a half times the size of 
+                    <br>
+                    Everest!
+                </p>
+            
+                <hr>
+            
+                <table id="hero-table">
+                    <tr id="barlow-font">
+                        <td>AVG. DISTANCE</td>
+                        <td>EST. TRAVEL TIME</td>
+                    </tr>
+                    <tr id="belle-font">
+                        <td>225 MIL. KM</td>
+                        <td id="three-days">9 MONTHS</td>
+                    </tr>
+                </table>
+            </section>
+            
+
+            <section id="europa-section">
+                <h1>EUROPA</h1>
+
+                <p>
+                    The smallest of the four Galilean moons orbiting Jupiter, 
+                    <br>
+                    Europa is a winter lover’s dream. With an icy surface, it’s 
+                    <br>
+                    perfect for a bit of ice skating, curling, hockey, or simple 
+                    <br>
+                    relaxation in your snug wintery cabin.
+                </p>
+
+                <hr>
+
+                <table id="hero-table">
+                    <tr id="barlow-font">
+                        <td>AVG. DISTANCE</td>
+                        <td>EST. TRAVEL TIME</td>
+                    </tr>
+                    <tr id="belle-font">
+                        <td>628 MIL. KM</td>
+                        <td id="three-days">3 YEARS</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="titan-section">
+                <h1>TITAN</h1>
+
+                <p>
+                    The only moon known to have a dense atmosphere other 
+                    <br>
+                    than Earth, Titan is a home away from home (just a few 
+                    <br>
+                    hundred degrees colder!). As a bonus, you get striking 
+                    <br>
+                    views of the Rings of Saturn.
+                </p>
+
+                <hr>
+
+                <table id="hero-table">
+                    <tr id="barlow-font">
+                        <td>AVG. DISTANCE</td>
+                        <td>EST. TRAVEL TIME</td>
+                    </tr>
+                    <tr id="belle-font">
+                        <td>384,400 KM</td>
+                        <td id="three-days">3 DAYS</td>
+                    </tr>
+                </table>
+            </section>
 
         </section>
+
     </section>
 
     <script src="/js files/destination js/destination.js"></script>

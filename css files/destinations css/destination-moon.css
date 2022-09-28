@@ -52,8 +52,6 @@ body{
 }
 
 #subNavDestination{
-    border: 2px solid green;
-    
     display: flex;
     width: 290px;
     gap: 33px;
@@ -63,16 +61,6 @@ body{
     letter-spacing: 2.7px;
     color: #D0D6F9;
     font-family: 'Barlow Condensed', sans-serif;
-}
-
-#subNavDestination p{
-    font-weight: 400;
-    font-size: 9px;
-    line-height: 32px;
-    color: #D0D6F9;
-    font-family: 'Barlow';
-    font-style: normal;
-    margin-bottom: 40px;
 }
 
 #hero-text h1{
@@ -120,4 +108,19 @@ hr{
 
 #three-days{
     margin-left: -50px;
+}
+
+
+/* Sections for sub destinations */
+
+#mars-section{
+    /* display: none; */
+}
+
+#europa-section{
+    display: none;
+}
+
+#titan-section{
+    display: none;
 }
