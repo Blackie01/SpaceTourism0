@@ -20,12 +20,12 @@ body{
     justify-content: space-evenly;
 }
 
-#hero-image{
+#hero-image-moon{
     height: 445px;
     width: 445px;
 }
 
-#hero-image img{
+#hero-image-moon img{
     height: 350px;
     width: 350px;
 }
@@ -62,6 +62,16 @@ body{
     color: #D0D6F9;
     font-family: 'Barlow Condensed', sans-serif;
 }
+
+#subNavDestination li{
+    padding-bottom: 7px;
+}
+
+#subNavDestination li:hover{
+    /* transition: 1s; */
+}
+
+
 
 #hero-text h1{
     font-size: 100px;
@@ -113,14 +123,28 @@ hr{
 
 /* Sections for sub destinations */
 
-#mars-section{
-    /* display: none; */
-}
-
-#europa-section{
+/* .mars-section{
     display: none;
 }
 
-#titan-section{
+.europa-section{
     display: none;
 }
+
+.titan-section{
+    display: none;
+} */
+
+/* section for sub images */
+
+/* #hero-image-mars{
+    display: none;
+}
+
+#hero-image-europa{
+    display: none;
+}
+
+#hero-image-titan{
+    display: none;
+} */

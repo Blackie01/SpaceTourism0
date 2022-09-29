@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    max-height: 100vh;
+}
+
+body{
+    height: 100vh;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/assets/crew/background-crew-desktop.jpg);
+}
+
+.crew-hero{
+    justify-content: space-evenly;
+}
+
+#crew-hero-left{
+    margin-left: 10%;
+    margin-top: 100px;
+}
+
+#crew-hero-left-p{
+    margin-bottom: 70px;
+    font-size: 28px;
+    line-height: 33.6px;
+    letter-spacing: 4.72px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+#crew-jumboNumber{
+    color: #D0D6F9;
+}
+
+#crew-text h3{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37px;
+    font-family: 'Bellefair', serif;
+    letter-spacing: 0px;
+    color: #D0D6F9;
+    margin-bottom: 10px;
+}
+
+#crew-text h2{
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+    font-family: 'Bellefair', serif;
+    margin-bottom: 10px;
+}
+
+#crew-text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+    font-family: 'Barlow';
+    font-style: normal;
+    margin-bottom: 40px;
+}
+
+#crew-hero-left{
+    left: 50%;
+}
+
+.crew-image{
+    position: absolute;
+    bottom:0px;
+    right: 10%;
+    padding-bottom: 0px;
+}
+
+.crew-image img{
+    width: 426px;
+    height: 534px; 
+}
+
