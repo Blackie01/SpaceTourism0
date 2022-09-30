@@ -20,12 +20,12 @@ body{
     justify-content: space-evenly;
 }
 
-#hero-image-moon{
+.hero-images{
     height: 445px;
     width: 445px;
 }
 
-#hero-image-moon img{
+.hero-images img{
     height: 350px;
     width: 350px;
 }
@@ -123,21 +123,21 @@ hr{
 
 /* Sections for sub destinations */
 
-/* .mars-section{
+#mars-section{
     display: none;
 }
 
-.europa-section{
+#europa-section{
     display: none;
 }
 
-.titan-section{
+#titan-section{
     display: none;
-} */
+}
 
 /* section for sub images */
 
-/* #hero-image-mars{
+#hero-image-mars{
     display: none;
 }
 
@@ -147,4 +147,4 @@ hr{
 
 #hero-image-titan{
     display: none;
-} */
+}
