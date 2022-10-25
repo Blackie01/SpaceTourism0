@@ -20,12 +20,12 @@ body{
     justify-content: space-evenly;
 }
 
-#crew-hero-left{
+.douglas-hero-left{
     margin-left: 10%;
     margin-top: 100px;
 }
 
-#crew-hero-left-p{
+#douglas-hero-left-p{
     margin-bottom: 70px;
     font-size: 28px;
     line-height: 33.6px;
@@ -33,11 +33,11 @@ body{
     font-family: 'Barlow Condensed', sans-serif;
 }
 
-#crew-jumboNumber{
+#douglas-jumboNumber{
     color: #D0D6F9;
 }
 
-#crew-text h3{
+#douglas-text h3{
     font-size: 32px;
     font-weight: 400;
     line-height: 37px;
@@ -47,7 +47,7 @@ body{
     margin-bottom: 10px;
 }
 
-#crew-text h2{
+#douglas-text h2{
     font-size: 56px;
     font-weight: 400;
     line-height: 64px;
@@ -55,7 +55,7 @@ body{
     margin-bottom: 10px;
 }
 
-#crew-text p{
+#douglas-text p{
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
@@ -65,19 +65,62 @@ body{
     margin-bottom: 40px;
 }
 
-#crew-hero-left{
+#douglas-hero-left{
     left: 50%;
 }
 
-.crew-image{
+#douglas-image, #mark-image, #victor-image, #ansari-image{
     position: absolute;
     bottom:0px;
     right: 10%;
     padding-bottom: 0px;
 }
 
-.crew-image img{
+#douglas-image img{
     width: 426px;
     height: 534px; 
 }
+
+#mark-image img{
+    width: 426px;
+    height: 534px; 
+}
+
+#victor-image img{
+    width: 426px;
+    height: 534px; 
+}
+
+#ansari-image img{
+    width: 426px;
+    height: 534px; 
+}
+
+
+/* display none */
+#mark, #victor, #ansari, #mark-image, #victor-image, #ansari-image{
+    display: none;
+}
+
+
+/* circle */
+.circle{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #979797;
+}
+
+.circle:hover{
+    background-color: #cecaca;
+}
+
+#circles{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 2%;
+    column-gap: 15px;
+    width: auto;
+}
+
 

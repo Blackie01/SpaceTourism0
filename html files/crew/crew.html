@@ -21,10 +21,10 @@
     </div>
 
     <section class="crew-hero">
-        <section id="crew-hero-left">
-            <p id="crew-hero-left-p"><span id="crew-jumboNumber">02</span> <span id="crew-pick-span">MEET YOUR CREW</span></p>
+        <section id="douglas" class="douglas-hero-left">
+            <p id="douglas-hero-left-p"><span id="douglas-jumboNumber">02</span> <span id="crew-pick-span">MEET YOUR CREW</span></p>
 
-            <section id="crew-text">
+            <section id="douglas-text">
                 <h3>COMMANDER</h3>
                 <h2>DOUGLAS HURLEY</h2>
                 <p>
@@ -39,11 +39,107 @@
             </section>
         </section>
 
-        <section class="crew-image">
+        <section id="mark" class="douglas-hero-left">
+            <p id="douglas-hero-left-p"><span id="douglas-jumboNumber">02</span> <span id="crew-pick-span">MEET YOUR CREW</span></p>
+
+            <section id="douglas-text">
+                <h3>MISSION SPECIALIST</h3>
+                <h2>MARK SHUTTLEWORTH</h2>
+                <p>
+                    Mark Richard Shuttleworth is the founder and CEO of 
+                    <br>
+                    Canonical, the company behind the Linux-based Ubuntu 
+                    <br>
+                    operating system. Shuttleworth became the first South
+                    <br>
+                    African to travel to space as a space tourist.
+                </p>
+            </section>
+        </section>
+
+        <section id="victor" class="douglas-hero-left">
+            <p id="douglas-hero-left-p"><span id="douglas-jumboNumber">02</span> <span id="crew-pick-span">MEET YOUR CREW</span></p>
+
+            <section id="douglas-text">
+                <h3>PILOT</h3>
+                <h2>VICTOR GLOVER</h2>
+                <p>
+                    Pilot on the first operational flight of the SpaceX Crew Dragon to the
+                    <br>
+                    International Space Station. Glover is a  commander in the U.S. Navy
+                    <br>
+                    where he pilots an F/A-18. He was a crew member of Expedition 64,
+                    <br>
+                    and served as a station systems flight engineer.
+                </p>
+            </section>
+        </section>
+
+        <section id="ansari" class="douglas-hero-left">
+            <p id="douglas-hero-left-p"><span id="douglas-jumboNumber">02</span> <span id="crew-pick-span">MEET YOUR CREW</span></p>
+
+            <section id="douglas-text">
+                <h3>FLIGHT ENGINEER</h3>
+                <h2>ANOUSHEH ANSARI</h2>
+                <p>
+                    Anousheh Ansari is an Iranian American engineer and 
+                    <br>
+                    co-founder of Prodea Systems. Ansari was the fourth  
+                    <br>
+                    self-funded space tourist, the first self-funded woman to
+                    <br>
+                    fly to the ISS, and the first Iranian in space. 
+                </p>
+            </section>
+        </section>
+
+        <section id="circles">
+            <a href="" onmouseover="onHoverCircle1(event)" onclick="onClickOfDouglasCircle(event)">
+                <div id="circle1" class="circle">
+                </div>
+            </a>
+            <a href="" onmouseover="onHoverCircle2(event)" onclick="onClickOfMarkCircle(event)">
+                <div id="circle2" class="circle">
+                </div>
+            </a>
+            <a href="" onmouseover="onHoverCircle3(event)" onclick="onClickOfVictorCircle(event)">
+                <div id="circle3" class="circle">
+                </div>
+            </a>
+            <a href="" onmouseover="onHoverCircle4(event)" onclick="onClickOfAnsariCircle(event)">
+                <div id="circle4" class="circle">
+                </div>
+            </a>
+        </section>
+       
+    </section>
+
+   
+
+    <section>
+        <section id="douglas-image">
             <img src="/assets/crew/image-douglas-hurley.png" alt="">
         </section>
 
+        <section id="mark-image">
+            <img src="/assets/crew/image-mark-shuttleworth.png" alt="">
+        </section>
+
+        <section id="victor-image">
+            <img src="/assets/crew/image-victor-glover.png" alt="">
+        </section>
+
+        <section id="ansari-image">
+            <img src="/assets/crew/image-anousheh-ansari.png" alt="">
+        </section>
+
     </section>
+
+    <script src="/js files/crew js/crew.js"></script>
     
 </body>
 </html>
+
+<!-- to do the crew thing, the dots, i'll find dots that will fill with white on click
+so, individual dots that will link on click, and make changes to the HTMl
+-->
